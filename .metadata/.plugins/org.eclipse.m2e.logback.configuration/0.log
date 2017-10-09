@@ -1,0 +1,33 @@
+2017-10-08 21:47:47,042 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.certificateDelivery:CertificateDelivery:0.0.1-SNAPSHOT @ C:\ImplantacaoSoftware\CertificateDelivery - API\CertificateDelivery\pom.xml.
+2017-10-08 21:47:55,482 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CertificateDelivery/src/main/java
+2017-10-08 21:47:55,483 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CertificateDelivery/src/main/resources
+2017-10-08 21:47:55,485 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CertificateDelivery/src/test/java
+2017-10-08 21:47:55,486 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CertificateDelivery/src/test/resources
+2017-10-08 21:47:55,899 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 38 sec
+2017-10-08 21:48:02,854 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:48:02,866 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-08 21:48:02,931 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:48:02,932 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-08 21:51:42,982 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:51:42,987 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-08 21:51:43,008 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:51:43,009 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-08 21:51:56,633 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:51:56,634 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-08 21:51:56,644 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:51:56,645 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-08 21:52:29,979 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:52:29,981 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-08 21:52:29,987 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:52:29,988 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-08 21:52:50,302 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-10-08 21:52:52,564 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.certificateDelivery:CertificateDelivery:0.0.1-SNAPSHOT @ C:\ImplantacaoSoftware\CertificateDelivery - API\CertificateDelivery\pom.xml.
+2017-10-08 21:52:54,624 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CertificateDelivery/src/main/java
+2017-10-08 21:52:54,625 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CertificateDelivery/src/main/resources
+2017-10-08 21:52:54,627 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CertificateDelivery/src/test/java
+2017-10-08 21:52:54,627 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CertificateDelivery/src/test/resources
+2017-10-08 21:52:55,197 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-10-08 21:52:56,755 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:52:56,756 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-08 21:52:56,792 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-10-08 21:52:56,794 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
