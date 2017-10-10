@@ -42,32 +42,5 @@ public class UsuarioService extends GenericService<UsuarioEntity, Long> {
 		}
 		
 		return super.insercao(entityObject);
-	}
-	
-	/*public UsuarioService(){
-		usuario = new UsuarioEntity();
-		SecurityContext context = SecurityContextHolder.getContext();
-		if(context instanceof SecurityContext){
-			Authentication authentication = context.getAuthentication();
-			if(authentication instanceof Authentication){
-				usuario.setNome(((UsuarioEntity)authentication.getPrincipal()).getNome());
-			}
-		}
-		
-	}*/
-	
-	@RequestMapping(value="/fr/configuracoes", method=RequestMethod.GET)
-	public UsuarioEntity listaUnico(){
-		Object usuarioLogado = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-		String username;
-		
-		if(usuarioLogado instanceof UserDetails){
-			username = ((UserDetails)usuarioLogado).getUsername();
-		}
-		else{
-			username=usuarioLogado.toString();
-		}
-		
-		return this.usuarioRepository.findByAll(username);
-	}
+	}	
 }

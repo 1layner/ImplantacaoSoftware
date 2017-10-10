@@ -88,4 +88,17 @@ public class UsuarioEntity extends BaseEntity<Long> {
 	public void setPermissao(List<PermissaoEntity> permissao) {
 		this.permissao = permissao;
 	}
+	
+	public boolean exists(){
+		
+		UsuarioEntity usuario = null;
+		
+		if(usuario.exists()){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+
 }

@@ -26,10 +26,17 @@ public class UsuarioRepositoryTest {
 	private UsuarioRepository usuarioRepository;
 	
 	@Test
-	public void listarTudo(){
-		List<UsuarioEntity> user = this.usuarioRepository.findAll();
-		System.out.println("Usuário com Permissoes" + user.toString());
-		LOGGER.info(user + " ");
+	public void listarTudo() throws Exception{
+		
+		try{
+			List<UsuarioEntity> user = this.usuarioRepository.findAll();
+			System.out.println("Usuário com Permissoes" + user.toString());
+			LOGGER.info(user + " ");
+		}
+		catch(Exception e){
+			LOGGER.error(e + " ");
+		}
+		
 	}
 	
 	@Test
@@ -42,7 +49,7 @@ public class UsuarioRepositoryTest {
 		
 		UsuarioEntity usu = new UsuarioEntity();
 		usu.setNome("Jair");
-		usu.setEmail("ja@gmail.com");
+		usu.setEmail("ja@gmails.com");
 		usu.setSenha("1234");
 		usu.setPermissao((List<PermissaoEntity>) Arrays.asList(per1, per2));
 		
@@ -50,5 +57,49 @@ public class UsuarioRepositoryTest {
 		
 		LOGGER.info(usu + "");
 	}
+	
+	@Test
+	public void retornaUm(){
+		try{
+			
+			UsuarioEntity usuario = this.usuarioRepository.findOne(10L);
+			
+			LOGGER.info(usuario + " ");
+			
+		}catch(Exception e){
+			LOGGER.fatal(e + " ");
+		}
+	}
+	
+	@Test
+	public void update() throws Exception{
+		
+		UsuarioEntity usu = new UsuarioEntity();
+		
+		usu.setId(7L);
+		
+		if(usu.getId() != null){
+			usu.setNome("Kaio");
+			usu.setEmail("kakui@gmail.com");
+			usu.setSenha("kajo");
+			
+			usuarioRepository.save(usu);
+			
+			LOGGER.info(usu + " ");
+
+		}else{
+			usu.setNome("Mariano Gonçalves");
+			usu.setEmail("mariano@gmail.com");
+			usu.setSenha("mari6ano");
+			
+			usuarioRepository.save(usu);
+			
+			LOGGER.info(usu + " ");
+			
+		}
+
+	}
+	
+	
 	
 }
